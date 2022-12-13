@@ -1,0 +1,54 @@
+
+.about_me_heading span{
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxl);
+}
+.about_me_heading{
+    font-size: xx-large;
+    font-family: var(--font-sans);
+    color: var(--lightest-slate);
+    font-weight: bold;
+
+}
+.divider{
+    height: 2px;
+    background-color: var(--lightest-navy);
+}
+
+.about_me_description{
+    font-size: var(--fz-lg);
+    font-family: var(--font-sans);
+}
+
+.educationtitle, .technical__skill_title{
+    color: var(--lightest-slate);
+    font-family: var(--font-sans);
+    font-size: var(--fz-xl);
+}
+.education_details span{
+    color: var(--green);
+    font-family: var(--font-mono);
+}
+.education_details{
+    font-size: var(--fz-lg);
+}
+
+.technical_skill_details{
+    font-size: var(--fz-lg);
+    color: var(--lightest-slate) !important;
+}
+.technical_skill_details span{
+    color: var(--slate);
+    font-size: medium !important;
+}
+
+.profile_photo{
+    width: 400px;
+    height: auto;
+    border: 2px solid;
+    border-color: var(--green);
+}
+img{
+    border-radius: 5px;
+}

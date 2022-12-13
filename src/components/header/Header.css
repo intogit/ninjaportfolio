@@ -1,0 +1,41 @@
+.header{
+    color: var(--lightest-slate);
+    font-family: var(--font-mono);
+}
+
+.left_top_logo{
+    float:left;
+    align-items: center;
+    font-size: x-large;
+    border: 3px;
+    border-style: solid;
+    border-color: var(--green);
+    border-radius: var(--border-radius);
+    color: var(--green);
+    background-color: var(--navy);
+}
+.right_top_menu_link{
+    float:right;
+}
+.right_top_menu_link span{
+    color: var(--green);
+}
+
+.right_top_menu_link:hover{
+    color: var(--green);
+}
+
+.right_top_resume{
+    float:right;
+    font-size: x-large;
+    border: 1px;
+    border-style: dotted;
+    border-color: var(--green);
+    border-radius: var(--border-radius);
+    color: var(--green);
+    background-color: var(--navy);
+}
+
+.right_top_resume:hover{
+    background-color: var(--green-tint) ;
+}

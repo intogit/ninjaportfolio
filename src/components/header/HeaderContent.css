@@ -1,0 +1,23 @@
+
+.header_content{
+    font-family: var(--font-sans);
+}
+.header_first_line{
+    font-family: var(--font-mono) !important;
+    color: var(--green);
+    font-size: var(--fz-xxl);
+    margin-bottom: 20px;
+}
+.header_name{
+    color: var(--lightest-slate);
+    font-weight: bold !important;
+}
+.header_oneline{
+    color: var(--slate);
+    font-weight: bold !important;
+    margin-bottom: 20px;
+}
+.header_shortSummary{
+    color: var(--slate);
+    font-size: var(--fz-lg);
+}

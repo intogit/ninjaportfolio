@@ -1,0 +1,18 @@
+.project_heading span{
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxl);
+}
+.project_heading{
+    font-size: xx-large;
+    font-family: var(--font-sans);
+    color: var(--lightest-slate);
+    font-weight: bold;
+
+}
+.divider{
+    height: 2px;
+    background-color: var(--lightest-navy);
+}
+
+
