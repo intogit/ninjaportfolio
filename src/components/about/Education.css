@@ -1,7 +1,7 @@
-.edu_institute{
+/* .edu_institute{
     margin-right: 30px;
-    margin-top: 12px;
-}
+    padding-top: 20px;
+} */
 .institute_degree_n_branch{
     color: var(--lightest-slate);
     font-size: var(--fz-lg);

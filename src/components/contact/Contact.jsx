@@ -21,20 +21,17 @@ const Contact = () => {
                 </div>
             </div>
                 <div className='my-3 social_media_links d-flex justify-content-evenly'>
-                    <div><a href={github} target="_blank"> <FiGithub color='var(--slate)' size='30px'></FiGithub> </a></div>
-                    <div><a href={linkedin} target="_blank"> <FiLinkedin color='var(--slate)' size="30px"></FiLinkedin></a></div>
-                    <div><a href={instagram} target="_blank"> <FiInstagram color='var(--slate)' size='30px'></FiInstagram> </a></div>
+                    <div><a href={github} target="_blank"> <FiGithub className='icons' color='var(--slate)' size='30px'></FiGithub> </a></div>
+                    <div><a href={linkedin} target="_blank"> <FiLinkedin className='icons' color='var(--slate)' size="30px"></FiLinkedin></a></div>
+                    <div><a href={instagram} target="_blank"> <FiInstagram className='icons' color='var(--slate)' size='30px'></FiInstagram> </a></div>
                 
-                    <a href={codeforces} target="_blank"> <SiCodeforces color='var(--slate)' size='30px'></SiCodeforces> </a>
-                    <a href={leetcode} target="_blank"> <SiLeetcode color='var(--slate)' size="30px"></SiLeetcode></a>
-                    <a href={geeksforgeeks} target="_blank"> <SiGeeksforgeeks color='var(--slate)' size='30px'></SiGeeksforgeeks> </a>
-                    <a href={hackerrank} target="_blank"> <FaHackerrank color='var(--slate)' size='30px'></FaHackerrank> </a>
+                    <a href={codeforces} target="_blank"> <SiCodeforces className='icons' color='var(--slate)' size='30px'></SiCodeforces> </a>
+                    <a href={leetcode} target="_blank"> <SiLeetcode className='icons' color='var(--slate)' size="30px"></SiLeetcode></a>
+                    <a href={geeksforgeeks} target="_blank"> <SiGeeksforgeeks className='icons' color='var(--slate)' size='30px'></SiGeeksforgeeks> </a>
+                    <a href={hackerrank} target="_blank"> <FaHackerrank className='icons' color='var(--slate)' size='30px'></FaHackerrank> </a>
                 </div> 
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-            
         </>
     )
 }

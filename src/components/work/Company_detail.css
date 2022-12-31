@@ -1,0 +1,26 @@
+.company_heading{
+    color: var(--lightest-slate);
+    font-family: var(--font-sans);
+    font-size: var(--fz-xxl);
+    font-weight:500; 
+    text-transform: capitalize;
+}
+
+.company_heading span{
+    color: var(--green);
+    font-family: var(--font-sans);
+    font-size: var(--fz-xxl);
+    font-weight:600;   
+}
+.company_from_to{
+    font-family: var(--font-mono);
+}
+
+.job_skills{
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xl);
+    text-transform: capitalize;
+}
+
+

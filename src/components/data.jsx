@@ -1,4 +1,5 @@
 
+export const resume_url = "https://drive.google.com/file/d/1d7sZTfNsEjvfyti6bGR5gHExPDpWn7pS/view?usp=drivesdk";
 export const name = "Abhishek Yadav";
 export const profilePhoto = 'https://media-exp1.licdn.com/dms/image/D5603AQFNNNeVSYwVfA/profile-displayphoto-shrink_800_800/0/1670710263622?e=1676505600&v=beta&t=PXKYboUE1wX6MpGBlrp3guEWtk8lT2PujJQdKCnh65I';
 export const email = "abs.yadav12@gmail.com";
@@ -39,6 +40,31 @@ export const webDevSkills = "HTML,  CSS,  JavaScript,  ReactJs,  Bootstrap.";
 export const databaseSkills = "MySQL.";
 export const Tools = "Github,  Linux.";
 
+export const companies = [
+  {
+    name: "apple",
+    role: "software developer -1",
+    from_to: "January 2020 - December 2025",
+    job_skills: "html css javascript wiredapt",
+
+    job_desc_1: "Worked with a team of three designers to build a marketing website Worked with a team of three designers to build a marketing Worked with a team of three designers to build a marketing  and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern.",
+    job_desc_2: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
+    job_desc_3: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
+  }, 
+  {
+    name: "apple",
+    role: "software developer -1",
+    from_to: "January 2020 - December 2025",
+    job_skills: "html css javascript wiredapt",
+    
+    job_desc_1: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern.",
+    job_desc_2: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
+    job_desc_3: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
+  }
+]
+
+
+
 export const projects = [
   {
     img: 'https://user-images.githubusercontent.com/87442076/207146985-bf8d67c2-9951-4fe3-ab6e-3fd841050d1e.png',
@@ -65,7 +91,7 @@ export const projects = [
     url: 'https://critcspage.netlify.app',
     techUsed: "html css javascript reactjs",
     techStack: ["html", "css", "javascript", "reactjs"],
-    description: "To create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesto create a team management webapp so that users can collaborate among and gove feedback",
+    description: "To create a team management webapp so that users can collaborate among To create a team management webapp so that users can collaborate amongTo create a team management webapp so that users can collaborate amongTo create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesto create a team management webapp so that users can collaborate among and gove feedback",
   }
 ];
 

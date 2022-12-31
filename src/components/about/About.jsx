@@ -19,25 +19,21 @@ const About =() =>{
                         <div className='about_me_description'>{aboutMe}</div>
                         <br></br>
                         <div className='educationtitle'>Education:</div>
-                        <div className='education_intitute'>
+                        <div className='education_intitute py-2'>
                             {education.map((institute, i) => (
                                 <div>
                                     <Education institute = {institute}></Education>
-                                
-                                    {/* <div className=' education_details'>
-                                        
-                                        <div><span>{i+1}.&emsp; </span>{institute.degree} in {institute.branch} from {institute.name} ({institute.gradYear}).</div>
-                                    </div> */}
                                 </div>
                             ))}
                         </div>
-                        <br></br>
-                        <div className='technical__skill_title'>Key Technical Skills:</div>
-                        <div className='technical_skill_details'><span>Programming Language:&emsp;</span>{programmingLanguages}</div>
-                        <div className='technical_skill_details'><span>Web Development Technologies:&emsp;</span>{webDevSkills}</div>
-                        <div className='technical_skill_details'><span>Database:&emsp;</span>{databaseSkills}</div>
-                        <div className='technical_skill_details'><span>Tools:&emsp;</span>{Tools}</div>    
                         
+                        <div className='technical__skill_title py-2'>Key Technical Skills:</div>
+                        <ul>
+                        <li className='technical_skill_details'><span>Programming Language:&emsp;</span>{programmingLanguages}</li>
+                        <li className='technical_skill_details'><span>Web Development Technologies:&emsp;</span>{webDevSkills}</li>
+                        <li className='technical_skill_details'><span>Database:&emsp;</span>{databaseSkills}</li>
+                        <li className='technical_skill_details'><span>Tools:&emsp;</span>{Tools}</li>    
+                        </ul>
 
                     </div>
                     <div className='profile_photo_container'>

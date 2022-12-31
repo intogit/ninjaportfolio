@@ -10,6 +10,15 @@
     background-color: var(--light-navy);
     margin-top: 15px;
 }
+.project_details:hover{
+    /* border: 1px solid var(--green); */
+    box-shadow: 1px 1px 2px 1px var(--green);
+}
+
+.project_image{
+    display: flex;
+    align-items: center !important;
+}
 
 
 .project_image{
