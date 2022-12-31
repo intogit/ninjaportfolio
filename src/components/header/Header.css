@@ -3,20 +3,14 @@
     font-family: var(--font-mono);
 }
 
-.left_top_logo{
-    float:left;
+.header_row{
+    display: flex;
+    justify-content: end;
     align-items: center;
-    font-size: x-large;
-    border: 3px;
-    border-style: solid;
-    border-color: var(--green);
-    border-radius: var(--border-radius);
-    color: var(--green);
-    background-color: var(--navy);
+    flex-wrap: wrap;
 }
-.right_top_menu_link{
-    float:right;
-}
+
+
 .right_top_menu_link span{
     color: var(--green);
 }
@@ -26,10 +20,9 @@
 }
 
 .right_top_resume{
-    float:right;
-    font-size: x-large;
+    font-size: var(--fz-xl);
     border: 1px;
-    border-style: dotted;
+    border-style: solid;
     border-color: var(--green);
     border-radius: var(--border-radius);
     color: var(--green);

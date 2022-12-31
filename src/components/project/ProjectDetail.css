@@ -1,0 +1,35 @@
+.project_ss{
+    width: 500px;
+    height: auto;
+}
+
+.project_details{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: var(--light-navy);
+    margin-top: 15px;
+}
+
+
+.project_image{
+    margin-top: 5px;
+}
+
+.project_name{
+    color: var(--lightest-slate);
+    font-family: var(--font-sans);
+    font-size: var(--fz-xxl);
+    font-weight: 600;
+}
+
+.project_tech{
+    color: var(--green);
+    font-size: var(--fz-lg);
+    font-family: var(--font-mono);
+    text-transform: capitalize;
+}
+
+.container{
+    padding: 0% !important;
+}

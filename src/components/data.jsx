@@ -43,8 +43,8 @@ export const projects = [
   {
     img: 'https://user-images.githubusercontent.com/87442076/207146985-bf8d67c2-9951-4fe3-ab6e-3fd841050d1e.png',
     name: "TeamBook",
-    repo: 'github.com/intogit/teambook',
-    url: 'teambook.netlify.app',
+    repo: 'https://github.com/intogit/teambook',
+    url: 'https://teambook.netlify.app',
     techUsed: "html  css  javascript  reactjs",
     techStack: ["html", "css", "javascript", "reactjs"],
     description: "To create a team management webapp so that users can collaborate among themselves. Built a basic UI of Team Manager component with CRUD operations in which one can add, delete, search, select, view team members."
@@ -56,7 +56,7 @@ export const projects = [
     url: 'https://critcspage.netlify.app',
     techUsed: "html css javascript reactjs",
     techStack: ["html", "css", "javascript", "reactjs"],
-    description: "to create a team management webapp so that users can collaborate among and gove feedback",
+    description: "To create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesto create a team management webapp so that users can collaborate among and gove feedback",
   },
   {
     img: 'https://user-images.githubusercontent.com/87442076/207146985-bf8d67c2-9951-4fe3-ab6e-3fd841050d1e.png',
@@ -65,37 +65,26 @@ export const projects = [
     url: 'https://critcspage.netlify.app',
     techUsed: "html css javascript reactjs",
     techStack: ["html", "css", "javascript", "reactjs"],
-    description: "to create a team management webapp so that users can collaborate among and gove feedback",
+    description: "To create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesTo create a team management webapp so that users can collaborate among themselvesto create a team management webapp so that users can collaborate among and gove feedback",
   }
 ];
-export const socialMedia = [
-  {
-    name: 'GitHub',
-    url: 'https://github.com/intogit',
-  },
-  {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/_abbhishek__',
-  },
-  {
-    name: 'Linkedin',
-    url: 'https://www.linkedin.com/in/abhishekyadav1',
-  }
-];
-export const codingProfiles = [
-  {
-    name: 'Codeforces',
-    url: "https://codeforces.com/profile/sleepingsage",
-  },
-  {
-    name: 'Leetcode',
-    url: "https://leetcode.com/sleepingsage/",
-  },
-  {
-    name: 'Hackerrank',
-    url: "https://www.hackerrank.com/a_ninja",
-  }
-];
+
+
+
+
+
+
+
+
+
+export const github =  'https://github.com/intogit';
+export const instagram = 'https://www.instagram.com/_abbhishek__';
+export const linkedin =  'https://www.linkedin.com/in/abhishekyadav1';
+export const codeforces =  "https://codeforces.com/profile/sleepingsage";
+export const leetcode = "https://leetcode.com/sleepingsage/";
+export const hackerrank = "https://www.hackerrank.com/a_ninja";
+export const geeksforgeeks = "https://auth.geeksforgeeks.org/user/absyadav12/";
+
 export const navLinks = [
   {
     name: 'About',

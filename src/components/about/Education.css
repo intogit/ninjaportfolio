@@ -1,0 +1,12 @@
+.edu_institute{
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.institute_degree_n_branch{
+    color: var(--lightest-slate);
+    font-size: var(--fz-lg);
+}
+.edu_institute span{
+    font-weight: 700;
+    color: var(--green);
+}

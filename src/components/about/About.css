@@ -22,9 +22,9 @@
 }
 
 .educationtitle, .technical__skill_title{
-    color: var(--lightest-slate);
+    color: var(--green);
     font-family: var(--font-sans);
-    font-size: var(--fz-xl);
+    /* font-size: var(--fz-xl); */
 }
 .education_details span{
     color: var(--green);
@@ -46,9 +46,15 @@
 .profile_photo{
     width: 400px;
     height: auto;
-    border: 2px solid;
+    border: 3px solid;
     border-color: var(--green);
 }
 img{
     border-radius: 5px;
+}
+
+
+.education_intitute{
+    display: flex;
+    flex-wrap: wrap;
 }

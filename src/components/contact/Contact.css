@@ -1,18 +1,14 @@
-.project_heading span{
-    color: var(--green);
-    font-family: var(--font-mono);
-    font-size: var(--fz-xxl);
-}
-.project_heading{
+.contact_us_heading{
     font-size: xx-large;
     font-family: var(--font-sans);
     color: var(--lightest-slate);
     font-weight: bold;
-
 }
-.divider{
-    height: 2px;
-    background-color: var(--lightest-navy);
+
+.contact_us_first_line{
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: var(--fz-lg);
 }
 
 
@@ -29,4 +25,10 @@
 
 .button:hover{
     background-color: var(--green-tint) ;
+}
+
+.contact_us_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
