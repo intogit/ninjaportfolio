@@ -1,7 +1,7 @@
 import './About.css'
 import  React from 'react';
 import Education from './Education';
-import {profilePhoto, aboutMe, education, programmingLanguages, webDevSkills, databaseSkills, Tools} from '../data';
+import {profilePhoto, aboutMe1, aboutMe2, education, programmingLanguages, webDevSkills, databaseSkills, Tools} from '../data';
 
 
 const About =() =>{
@@ -16,7 +16,8 @@ const About =() =>{
         
             <div className="row about_me">
                     <div className='about_me_content_container'>
-                        <div className='about_me_description'>{aboutMe}</div>
+                        <div className='about_me_description'>{aboutMe1}</div>
+                        <div className='about_me_description'>{aboutMe2}</div>
                         <br></br>
                         <div className='educationtitle'>Education:</div>
                         <div className='education_intitute py-2'>
