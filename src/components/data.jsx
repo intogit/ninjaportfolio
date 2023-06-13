@@ -1,7 +1,7 @@
 
 export const resume_url = "https://drive.google.com/file/d/1vxlYOLvaxmtCusN_UWqQlWK1lth44Fky/view?usp=drivesdk";
 export const name = "Abhishek Yadav";
-export const profilePhoto = 'https://media.licdn.com/dms/image/D5603AQEYeCZ8L7a66w/profile-displayphoto-shrink_400_400/0/1675680352616?e=1681344000&v=beta&t=s6Buj2KhpCJpq_K_E5fUv1SrD0ZYomNOXTTjcR2JnEQ';
+export const profilePhoto = 'https://media.licdn.com/dms/image/D5603AQGw84KP9lhHZg/profile-displayphoto-shrink_800_800/0/1684058485044?e=1692230400&v=beta&t=D7PRdeKq2QCzGH00jg6jP5uJoqqXN5dvNa-XdwIRS-4';
 export const email = "abs.yadav12@gmail.com";
 export const oneLineSummary = "I build things for web.";
 export const shortSummary = "I am a Student and currently learning full-stack technologies and improving my problem solving abilities to become a successful software engineer. Have a great day";
@@ -25,7 +25,7 @@ export const education = [
 // ]
 
 export const programmingLanguages = "C++,  Java, Data Structure and Algorithm.";
-export const webDevSkills = "HTML5,  CSS3,  JavaScript,  ReactJs,  Bootstrap.";
+export const webDevSkills = "HTML5,  CSS3,  JavaScript,  ReactJs,  Bootstrap, Node.js, MongoDB.";
 export const databaseSkills = "MySQL.";
 export const Tools = "Github, RedHat Linux.";
 
