@@ -1,5 +1,5 @@
 
-export const resume_url = "https://drive.google.com/file/d/1vxlYOLvaxmtCusN_UWqQlWK1lth44Fky/view?usp=drivesdk";
+export const resume_url = "https://drive.google.com/file/d/1GhzYf8c_dtUSeeJB3O1gjMrIdFsZOh13/view?usp=drivesdk";
 export const name = "Abhishek Yadav";
 export const profilePhoto = 'https://media.licdn.com/dms/image/D5603AQGw84KP9lhHZg/profile-displayphoto-shrink_800_800/0/1684058485044?e=1692230400&v=beta&t=D7PRdeKq2QCzGH00jg6jP5uJoqqXN5dvNa-XdwIRS-4';
 export const email = "abs.yadav12@gmail.com";
