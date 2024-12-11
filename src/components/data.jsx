@@ -24,7 +24,7 @@ export const education = [
 //   }
 // ]
 
-export const programmingLanguages = "C++,  Java, Data Structure and Algorithm.";
+export const programmingLanguages = "C++,  Core Java, Golang, JavaScript.";
 export const webDevSkills = "HTML5,  CSS3,  JavaScript,  ReactJs,  Bootstrap, Node.js, MongoDB.";
 export const databaseSkills = "MySQL.";
 export const Tools = "Github, RedHat Linux.";
@@ -40,6 +40,15 @@ export const companies = [
   //   job_desc_2: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
   //   job_desc_3: "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
   // }, 
+  {
+    name: "IBM",
+    role: "Associate System Engineer",
+    from_to: "October 2023 - Present",
+    job_skills: "AWS, DevOps, ITIL, Change and Release management",
+
+    job_desc_1: "Managed Change and Release process of Marriott International, collaborated with SRE team to resolve incidents caused by changes and implementing preventive measures. Overall, driving fully compliant changes into production.",
+    job_desc_2: "Developed expertise in AWS cloud and DevOps practices to enhance operational efficiency.",
+  }, 
   
 ]
 
