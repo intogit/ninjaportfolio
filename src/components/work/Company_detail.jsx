@@ -7,7 +7,7 @@ const Company_detail =(props)=>{
             <div className="container company_details py-2 px-2">
                 <div className='company_heading'>{props.company.role} <span>@ {props.company.name}</span></div>
                 <div className='company_from_to'>{props.company.from_to}</div>
-                <div className='project_tech'>{props.company.job_skills}</div>
+                <div className='company_job_skills'>{props.company.job_skills}</div>
                 <div className='my-3'>
                     <ul>
                         <li className='job_desc'>{props.company.job_desc_1}</li>
